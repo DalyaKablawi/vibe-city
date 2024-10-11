@@ -1,0 +1,26 @@
+header {
+  text-align: center;
+}
+h3 {
+  font-family: "Helvetica", "Lato", "sans-serif";
+  color: green;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  border-image: linear-gradient(green, green) 27 / 35px;
+}
+.million {
+  float: left;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 200px;
+  height: 200px;
+}
