@@ -1,0 +1,7 @@
+body {
+  background-image: url(/assets/images/landing-page-background.gif);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
