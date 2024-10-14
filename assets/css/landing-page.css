@@ -33,6 +33,15 @@ body {
   bottom: 100px;
   right: 300px;
 }
+
+.link-style {
+  text-decoration: none;
+}
+
+.link-style:visited {
+  color: purple;
+}
+
 footer {
   position: fixed; 
   bottom: 0;
