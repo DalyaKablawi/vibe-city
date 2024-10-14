@@ -5,3 +5,47 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.directory-flex-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+#happyButton {
+  position: relative ;
+  bottom: 100px;
+  left : 300px;
+}
+
+#sadButton {
+  position: relative;
+  top: 100px;
+}
+
+#gigglingButton {
+  position: relative;
+  top: 100px;
+}
+
+#mehButton {
+  position: relative;
+  bottom: 100px;
+  right: 300px;
+}
+footer {
+  position: fixed; 
+  bottom: 0;
+  width: 100%;
+  display: flex; 
+  justify-content: space-between;
+  padding: 10px; 
+  background-color: #FAF9F6
+  ;
+}
+.requestButton {
+  left: 0;
+}
+.developCredits {
+  right: 0;
+}
