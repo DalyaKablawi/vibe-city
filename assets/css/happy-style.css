@@ -2,7 +2,12 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: space-between;
+  justify-content: start;
+  background-image: url(/assets/images/Background.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .flex-container-1 {
@@ -14,6 +19,9 @@ body {
 .text-position {
   text-align: center;
   margin: auto;
+  border: 5px white solid;
+  padding: 10px;
+  background-color: #fdac75;
 }
 
 h3 {
@@ -26,8 +34,10 @@ img {
   max-height: 100%;
   width: 200px;
   height: 200px;
-  border-radius: 15%;
-  border-image: linear-gradient(green, green) 27 / 35px;
+  border: 5px white solid;
+  border-radius: 30%;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .million {
@@ -48,10 +58,11 @@ img {
 
 .youtube-flex-item {
   margin: 0 10px;
-  padding: 5px;
+  border: 5px white solid;
 }
-button {
-  background-color: green;
+
+.youtube-flex-item iframe {
+  display: block;
 }
 
 .cards-flex-container {
@@ -59,17 +70,24 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  border: 5px black solid;
 }
 
-.cards-flex-item {
-  margin: 0 5px;
+.form-bg {
+  background-color: rgb(249, 197, 59);
+  border: 3px white solid;
+  border-radius: 15%;
 }
+
 
 .playlist-flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: en;
+  border: 3px white solid;
+  background-color: #c5278c;
+}
+
+.background-color {
+  background-color: #fe4d2e;
 }
 
 .flex-container-3 {
@@ -77,7 +95,16 @@ button {
   flex-direction: row;
 }
 
+.button-bg-color {
+  background-color: #0b88b6;
+  border: 3px #080f21;
+  color: white;
+}
+
 .credits {
-  border: 2px black solid;
+  border: 3px white solid;
+  color: #ebbe34;
+  font-weight: bold;
+  background-color: #0f051c;
   padding: 5px;
 }

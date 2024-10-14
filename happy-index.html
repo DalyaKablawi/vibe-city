@@ -28,87 +28,114 @@
       <div class="youtube-flex-container">
         <div class="youtube-flex-item">
           <a href="https://youtu.be/F0hthw1SM1s">
-            <button>
             <iframe
               width="420"
               height="345"
               src="https://www.youtube.com/embed/F0hthw1SM1s?autoplay=1&mute=1"
             >
             </iframe>
-            </button>
-            </a>
+          </a>
         </div>
       </div>
       <div class="cards-flex-container">
         <div class="cards-flex-item">
-          <button type="button" class="btn btn-dark">ADD VIBE-SCRIBE</button>
+          <button
+            type="button"
+            onclick="addVibeScribe()"
+            id="add-card"
+            class="border-white btn btn-dark"
+          >
+            ADD VIBE-SCRIBE
+          </button>
+          <form
+            class="form-bg list-group p-3 m-5"
+            id="add-vibe-scribe"
+            style="display: none"
+          >
+            <label class="mb-3 ml-3 text-center w-100">Vibe-Scribe</label>
+            <br />
+            <label class="px-2">Title</label>
+            <input
+              type="text"
+              id="vibe-scribe-title"
+              name="vibe-scribe-title"
+            />
+            <br />
+            <label for="message" class="my-2">Thoughts?</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit" id="hideForm" class="my-3 btn btn-dark text-light">
+              Submit
+            </button>
+          </form>
         </div>
       </div>
       <div class="playlist-flex-container">
-        <div class="dp-3 border border-3">
-          <section class="list-group p-3 bg-success text-dark">
-            <ul id="spotifyPlaylist">
-              <h2 class="lead">Music that sounds like a million bucks</h2>
-              <div class="justify-content-between">
-                <li>
-                  <a
-                    href="https://open.spotify.com/playlist/7jgspZkQqGrrfd2Q7lP3BR"
-                    target="_blank"
-                    class="list-group-item w-auto list-group-item-action list-group-item-info border border-success border-3 lead"
-                    >Good Vibes 2024 Playlist</a
-                  >
-                </li>
-              </div>
-              <div class="d-flex w-100 justify-content-between">
-                <li>
-                  <a
-                    href="https://open.spotify.com/playlist/37i9dQZF1DWYBO1MoTDhZI"
-                    target="_blank"
-                    class="list-group-item list-group-item-action list-group-item-info border border-success border-3 lead"
-                    >Good Vibes 2024 Playlist: Version 2</a
-                  >
-                </li>
-              </div>
-              <div class="d-flex w-100 justify-content-between">
-                <li>
-                  <a
-                    href="https://open.spotify.com/playlist/5TTmUXMKK07ZuQ4RCBEwO4"
-                    target="_blank"
-                    class="list-group-item list-group-item-action list-group-item-info border border-success border-3 lead"
-                    >Positive Music & Positive Vibes Playlist</a
-                  >
-                </li>
-              </div>
-              <div class="d-flex w-100 justify-content-between">
-                <li>
-                  <a
-                    href="https://open.spotify.com/playlist/2VFWzkL2GZpjdkDssdFIrT"
-                    target="_blank"
-                    class="list-group-item list-group-item-action list-group-item-info border border-success border-3 lead"
-                    >For our EDM Fans</a
-                  >
-                </li>
-              </div>
-              <div class="d-flex w-100 justify-content-between">
-                <li>
-                  <a
-                    href="https://open.spotify.com/album/1HoB6u1VnTXyOOxfcNVZsx"
-                    target="_blank"
-                    class="list-group-item list-group-item-action list-group-item-info border border-success border-3 lead"
-                    >For our Country Fans</a
-                  >
-                </li>
-              </div>
-              <div class="d-flex w-100 justify-content-between">
-                <li>
-                  <a
-                    href="https://open.spotify.com/playlist/1YbHmfZCO8V91Nd0LGoXY2"
-                    target="_blank"
-                    class="list-group-item list-group-item-action list-group-item-info border border-success border-3 lead"
-                    >Any Indie || Pop || Folk fans out there?</a
-                  >
-                </li>
-              </div>
+        <div class="dp-3">
+          <section class="list-group p-3 text-light">
+            <ul class="list-unstyled" id="spotifyPlaylist">
+              <h2 class="text-light background-color list-group-item">
+                Music that sounds like a million bucks
+              </h2>
+
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/playlist/7jgspZkQqGrrfd2Q7lP3BR"
+                  target="_blank"
+                  class="text-light background-color m-3 list-group-item lead"
+                  >Good Vibes 2024 Playlist</a
+                >
+              </li>
+
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/playlist/37i9dQZF1DWYBO1MoTDhZI"
+                  target="_blank"
+                  class="text-light background-color m-3 list-group-item lead"
+                  >Good Vibes 2024 Playlist: Version 2</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://open.spotify.com/playlist/5TTmUXMKK07ZuQ4RCBEwO4"
+                  target="_blank"
+                  class="text-light background-color m-3 list-group-item lead"
+                  >Positive Music & Positive Vibes Playlist</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://open.spotify.com/playlist/2VFWzkL2GZpjdkDssdFIrT"
+                  target="_blank"
+                  class="text-light background-color m-3 list-group-item lead"
+                  >For our EDM Fans</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://open.spotify.com/album/1HoB6u1VnTXyOOxfcNVZsx"
+                  target="_blank"
+                  class="text-light background-color m-3 list-group-item lead"
+                  >For our Country Fans</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://open.spotify.com/playlist/1YbHmfZCO8V91Nd0LGoXY2"
+                  target="_blank"
+                  class="text-light background-color m-3 list-group-item lead"
+                  >Any Indie || Pop || Folk fans out there?</a
+                >
+              </li>
             </ul>
           </section>
         </div>
@@ -117,7 +144,7 @@
     <div class="flex-container-3">
       <footer class="align-items-end">
         <button
-          class="position-absolute bottom-0 start-0 btn btn-info"
+          class="position-absolute bottom-0 start-0 btn button-bg-color"
           onclick="showForm()"
         >
           <em>Don't see your vibe? Let us know!</em>
