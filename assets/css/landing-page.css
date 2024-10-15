@@ -1,3 +1,19 @@
+@font-face{
+  font-family: myFont;
+  src:url(./retro.ttf);
+}
+h1{
+  font-family: myFont;
+  font-size: 70px;
+  background-color: white;
+  margin-top: 100px;
+  }
+  h3{
+    font-family: myFont;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+  }
 body {
   background-image: url(/assets/images/landing-page-background.gif);
   -webkit-background-size: cover;
@@ -10,6 +26,10 @@ body {
   justify-content: space-around; 
   align-items: center; 
   height: 100vh; 
+}
+.directory-flex-container-2 {
+  display: flex;
+  justify-content: center;
 }
 
 #happyButton {
