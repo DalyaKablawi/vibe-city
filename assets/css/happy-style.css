@@ -65,11 +65,24 @@ img {
   display: block;
 }
 
+.btn-bg {
+  background-color: #06031b;
+}
+
 .cards-flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  gap: 16px;
+}
+
+.cards-flex-item {
+  flex: 0 0 auto;
+}
+
+.button-flex {
+  flex: 0 0 auto;
 }
 
 .form-bg {
@@ -78,10 +91,10 @@ img {
   border-radius: 15%;
 }
 
-
 .playlist-flex-container {
   display: flex;
   flex-direction: row;
+  min-width: 500px;
   border: 3px white solid;
   background-color: #c5278c;
 }
@@ -99,6 +112,10 @@ img {
   background-color: #0b88b6;
   border: 3px #080f21;
   color: white;
+}
+
+.button-bg-color:hover {
+  background-color: white;
 }
 
 .credits {
