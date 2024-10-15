@@ -5,6 +5,12 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.directory-flex-container-2 {
+  display: flex;
+  justify-content: center;
+}
+
 .directory-flex-container {
   display: flex;
   justify-content: space-around; 
