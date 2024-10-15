@@ -16,22 +16,45 @@ body {
   position: relative ;
   bottom: 100px;
   left : 300px;
+  border-radius: 100px;
+  width: 400px;
+  height: 150px;
+  font-size: 20px;
+  background-image: url(/assets/images/million-bucks.jpg);
+  background-size: cover;
 }
 
 #sadButton {
   position: relative;
   top: 100px;
+  border-radius: 100px;
+  width: 400px;
+  height: 150px;
+  font-size: 20px;
+  background-image: url(/assets/images/sadButton-img.jpg);
+  background-size: cover;
+  background-position: 25%;
+  color: white;
+  font-size: 20px;
 }
 
 #gigglingButton {
   position: relative;
   top: 100px;
+  border-radius: 100px;
+  width: 400px;
+  height: 150px;
+  font-size: 20px;
 }
 
 #mehButton {
   position: relative;
   bottom: 100px;
   right: 300px;
+  border-radius: 100px;
+  width: 400px;
+  height: 150px;
+  font-size: 20px;
 }
 
 .link-style {
@@ -39,7 +62,7 @@ body {
 }
 
 .link-style:visited {
-  color: purple;
+  color: white;
 }
 
 footer {
