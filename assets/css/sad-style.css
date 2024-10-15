@@ -23,3 +23,15 @@
     background-color: #0f051c;
     padding: 5px;
   }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: start;
+    background-image: url(/assets/images/Sad-Background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }  
