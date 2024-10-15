@@ -12,8 +12,8 @@
     />
     <link rel="stylesheet" href="/assets/css/happy-style.css" />
   </head>
-  <body>
-    <div class="flex-container-1">
+  <body d-flex>
+    <div class="flex-container-1 my-5">
       <div class="million">
         <img src="assets/images/million-bucks.jpg" alt="cat" />
       </div>
@@ -24,7 +24,7 @@
         </div>
       </header>
     </div>
-    <div class="flex-container-2">
+    <div class="flex-container-2 my-5">
       <div class="youtube-flex-container">
         <div class="youtube-flex-item">
           <a href="https://youtu.be/F0hthw1SM1s">
@@ -43,7 +43,7 @@
             type="button"
             onclick="addVibeScribe()"
             id="add-card"
-            class="border-white btn btn-dark"
+            class="border-white btn btn-bg text-light"
           >
             ADD VIBE-SCRIBE
           </button>
@@ -64,7 +64,7 @@
             <label for="message" class="my-2">Thoughts?</label>
             <textarea
               class="form-control"
-              id="message"
+              id="scribe-msg"
               name="message"
               rows="5"
               required
@@ -145,7 +145,7 @@
         </div>
       </div>
     </div>
-    <div class="flex-container-3">
+    <div class="flex-container-3 my-5">
       <footer class="align-items-end">
         <button
           class="position-absolute bottom-0 start-0 btn button-bg-color"
