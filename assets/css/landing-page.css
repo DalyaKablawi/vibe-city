@@ -81,6 +81,9 @@ body {
   width: 400px;
   height: 150px;
   font-size: 20px;
+  background-image: url(/assets/images/meh-img.jpg);
+  background-size: cover;
+  background-position: 25%;
 }
 
 .link-style {
