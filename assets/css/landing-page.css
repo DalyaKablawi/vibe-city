@@ -1,19 +1,22 @@
-@font-face{
+@font-face {
   font-family: myFont;
-  src:url(./retro.ttf);
+  src: url(./retro.ttf);
 }
-h1{
+
+h1 {
   font-family: myFont;
   font-size: 70px;
   background-color: white;
   margin-top: 100px;
-  }
-  h3{
-    font-family: myFont;
-    font-size: 20px;
-    background-color: white;
-    text-align: center;
-  }
+}
+
+h3 {
+  font-family: myFont;
+  font-size: 20px;
+  background-color: white;
+  text-align: center;
+}
+
 body {
   background-image: url(/assets/images/landing-page-background.gif);
   -webkit-background-size: cover;
@@ -29,19 +32,20 @@ body {
 
 .directory-flex-container {
   display: flex;
-  justify-content: space-around; 
-  align-items: center; 
-  height: 100vh; 
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
 }
+
 .directory-flex-container-2 {
   display: flex;
   justify-content: center;
 }
 
 #happyButton {
-  position: relative ;
+  position: relative;
   bottom: 100px;
-  left : 300px;
+  left: 300px;
   border-radius: 100px;
   width: 400px;
   height: 150px;
@@ -71,6 +75,8 @@ body {
   width: 400px;
   height: 150px;
   font-size: 20px;
+  background-image: url(/assets/images/in-love.jpg);
+  background-size: cover;
 }
 
 #mehButton {
@@ -86,27 +92,40 @@ body {
   background-position: 25%;
 }
 
+#randomButton {
+  position: relative;
+  border-radius: 100px;
+  width: 300px;
+  height: 100px;
+  background-image: url(/assets/images/random.jpg);
+  background-size: 50%;
+  font-size: 20px;
+  color: blue;
+}
+
 .link-style {
   text-decoration: none;
+  text-shadow: 2px 2px 3px black;
 }
 
 .link-style:visited {
-  color: white;
+  color: white
 }
 
 footer {
-  position: fixed; 
+  position: fixed;
   bottom: 0;
   width: 100%;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
-  padding: 10px; 
-  background-color: #FAF9F6
-  ;
+  padding: 10px;
+  background-color: #FAF9F6;
 }
+
 .requestButton {
   left: 0;
 }
+
 .developCredits {
   right: 0;
 }
