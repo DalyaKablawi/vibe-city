@@ -3,49 +3,33 @@
   src: url(./retro.ttf);
 }
 
+
 h1 {
   font-family: myFont;
   font-size: 70px;
-  background-color: white;
-  margin-top: 100px;
+  margin-top: 50px !important;
 }
 
 h3 {
   font-family: myFont;
   font-size: 20px;
-  background-color: white;
-  text-align: center;
 }
 
 body {
   background-image: url(/assets/images/landing-page-background.gif);
+  width: 100%;
+  height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.directory-flex-container-2 {
-  display: flex;
-  justify-content: center;
-}
-
-.directory-flex-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100vh;
-}
-
-.directory-flex-container-2 {
-  display: flex;
-  justify-content: center;
+.center {
+  margin: 70px 0;
 }
 
 #happyButton {
-  position: relative;
-  bottom: 100px;
-  left: 300px;
   border-radius: 100px;
   width: 400px;
   height: 150px;
@@ -55,8 +39,6 @@ body {
 }
 
 #sadButton {
-  position: relative;
-  top: 100px;
   border-radius: 100px;
   width: 400px;
   height: 150px;
@@ -69,8 +51,6 @@ body {
 }
 
 #gigglingButton {
-  position: relative;
-  top: 100px;
   border-radius: 100px;
   width: 400px;
   height: 150px;
@@ -80,9 +60,6 @@ body {
 }
 
 #mehButton {
-  position: relative;
-  bottom: 100px;
-  right: 300px;
   border-radius: 100px;
   width: 400px;
   height: 150px;
@@ -93,9 +70,8 @@ body {
 }
 
 #randomButton {
-  position: relative;
   border-radius: 100px;
-  width: 300px;
+  width: 200px;
   height: 100px;
   background-image: url(/assets/images/random.jpg);
   background-size: 50%;
@@ -109,23 +85,22 @@ body {
 }
 
 .link-style:visited {
-  color: white
+  color: white;
 }
 
-footer {
+.footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #FAF9F6;
-}
-
-.requestButton {
-  left: 0;
+  background-color: #faf9f6;
 }
 
 .developCredits {
-  right: 0;
+  border: black solid 3px;
+  padding: 5px;
+  margin-right: 8px;
+}
+
+.requestButton {
+  margin-left: 8px;
 }
