@@ -35,3 +35,54 @@
     -o-background-size: cover;
     background-size: cover;
   }  
+
+  .playlist-container {
+    min-width: 500px;
+    border: 3px white solid;
+    background-color: #75ACC4;
+  }
+  
+  .background-color {
+    background-color: #387996;
+  }
+  
+  .button-bg-color {
+    background-color: #75ACC4;
+    border: 3px #080f21;
+    color: white;
+  }
+  
+  .button-bg-color:hover {
+    background-color: white;
+  }
+  
+  .credits-container {
+    border: 3px white solid;
+    color: white;
+    font-weight: bold;
+    background-color: #387996;
+    text-align: center;
+  }
+  
+  a:hover {
+    background-color: black;
+  }
+
+  .text-position {
+    text-align: center;
+    background-color: #75ACC4;
+  }
+  
+  h3 {
+    font-family: "Helvetica", "Lato", "sans-serif";
+    color: white;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+    height: 200px;
+    border: 5px white solid;
+    border-radius: 30%;
+  }
