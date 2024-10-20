@@ -31,17 +31,15 @@
     <div
       class="d-flex flex-wrap justify-content-evenly align-items-center my-5"
     >
-      <div class="youtube">
-        <a href="https://youtu.be/F0hthw1SM1s">
-          <iframe
-            class="youtube my-sm-3"
-            width="500"
-            height="375"
-            src="https://www.youtube.com/embed/Jp9kutZen8c?autoplay=1&mute=1"
-          >
-          </iframe>
-        </a>
-      </div>
+      <a href="https://youtu.be/F0hthw1SM1s">
+        <iframe
+          class="youtube my-sm-3"
+          width="500"
+          height="375"
+          src="https://www.youtube.com/embed/Jp9kutZen8c?autoplay=1&mute=1"
+        >
+        </iframe>
+      </a>
 
       <div class="cards-container d-flex flex-wrap mx-5">
         <div class="cards-item">
@@ -151,44 +149,50 @@
         </div>
       </div>
     </div>
-    <footer class="d-flex flex-row justify-content-between flex-md-column">
+    <footer class="d-flex flex-row justify-content-between position-relative">
       <button class="btn button-bg-color" onclick="showForm()">
         <em>REQUEST-A-VIBE</em>
       </button>
       <form
-        class="position-absolute bottom-0 start-0 list-group p-3 mb-2 bg-info text-dark"
+        class="position-absolute request list-group p-3 mb-2 text-white"
         id="modalForm"
         style="display: none"
       >
         <title>REQUEST A VIBE</title>
         <br />
-        <label>First Name</label>
-        <input type="text" id="firstName" name="firstName" />
+        <label>First Name:</label>
+        <input class="d-flex" type="text" id="firstName" name="firstName" />
         <br />
-        <label>Country</label>
-        <input type="text" id="country" name="country" />
+        <label>Country:</label>
+        <input class="d-flex" type="text" id="country" name="country" />
         <br />
-        <label>Age</label>
-        <input type="text" id="age" name="age" />
+        <label>Age:</label>
+        <input class="d-flex" type="text" id="age" name="age" />
         <br />
         <label>Give a name to your vibe:</label>
-        <input type="text" id="VibeSuggestion" name="VibeSuggestion" />
+        <input
+          class="d-flex"
+          type="text"
+          id="VibeSuggestion"
+          name="VibeSuggestion"
+        />
         <br />
         <label
           >Describe your vibe in as much detail as possible for the team at
           VibeNation:</label
         >
-        <input
-          type="text"
+        <textarea
+          class="d-flex"
+        
           id="VibeSuggestionDetail"
-          name="VibeSuggestionDetail"
-        />
+          name="VibeSuggestionDetail">
+        </textarea>
         <br />
-        <button class="btn btn-success" type="submit" id="submit">
+        <button class="btn request-btn-bg my-2" type="submit" id="submit">
           Submit... maybe we'll listen
         </button>
       </form>
-      <div class="credits-container">
+      <div class="credits-container px-2">
         <p>
           Developed by VibeNation Studios: Maxwell Hurst, Dalya Kablawi, Daniel
           Villavicencio, Charisse Katelyn, Javier Lopez
