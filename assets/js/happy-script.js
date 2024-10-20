@@ -38,6 +38,7 @@ function renderCard() {
   cardTitle.style.fontFamily = "Lucinda";
   cardTitle.textContent = title;
   const cardMessage = document.createElement("p");
+  cardMessage.textContent = message;
 
   card.appendChild(cardTitle);
   card.appendChild(cardMessage);
