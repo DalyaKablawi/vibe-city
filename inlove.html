@@ -30,6 +30,49 @@
         </div>
       </header>
     </div>
+
+    <div class="cards-container d-flex flex-wrap mx-5">
+        <div class="cards-item">
+          <button
+            type="button"
+            onclick="addVibeScribe()"
+            id="add-card"
+            class="border-white btn btn-bg text-light"
+          >
+            ADD VIBE-SCRIBE
+          </button>
+          <form
+            class="form-bg list-group p-3 m-5"
+            id="add-vibe-scribe"
+            style="display: none"
+          >
+            <label class="mb-3 ml-3 text-center w-100">Vibe-Scribe</label>
+            <br />
+            <label class="px-2">Title</label>
+            <input
+              type="text"
+              id="vibe-scribe-title"
+              name="vibe-scribe-title"
+            />
+            <br />
+            <label for="message" class="my-2">Thoughts?</label>
+            <textarea
+              class="form-control"
+              id="scribe-msg"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+            <button
+              type="submit"
+              id="hideForm"
+              class="my-3 btn btn-dark text-light"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
     <div class="playlist-container">
       <div class="youtube">
         <a href="https://youtu.be/F0hthw1SM1s">
