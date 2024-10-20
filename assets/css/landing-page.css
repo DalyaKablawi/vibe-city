@@ -3,16 +3,51 @@
   src: url(./retro.ttf);
 }
 
-
 h1 {
   font-family: myFont;
   font-size: 70px;
   margin-top: 50px !important;
 }
 
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 10px #040304, 0 0 20px #ffffff, 0 0 20px #000000a8,
+      0 0 20px #322c31, 0 0 2px #7a56a9, 2px 2px 2px #806914;
+    color: #ffffff;
+  }
+  70% {
+    text-shadow: 0 0 2px #ffffff, 0 0 5px #0a0707, 0 0 5px #ffffff,
+      0 0 5px #ffffff, 0 0 2px #530079, 4px 4px 2px #40340a;
+    color: #ffffff;
+  }
+}
+
+
+
 h3 {
   font-family: myFont;
   font-size: 20px;
+
+  text-align: center;
+  margin: 1rem auto;
+  animation: neon 5s ease infinite;
+  text-align: center;
+}
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 10px #040304, 0 0 20px #ffffff, 0 0 20px #2a2828a8,
+      0 0 20px #322c31, 0 0 2px #7a56a9, 2px 2px 2px #806914;
+    color: #ffffff;
+  }
+  70% {
+    text-shadow: 0 0 2px #ffffff, 0 0 5px #0a0707, 0 0 5px #ffffff,
+      0 0 5px #ffffff, 0 0 2px #530079, 4px 4px 2px #40340a;
+    color: #cec8c8;
+  }
+
+
 }
 
 body {
@@ -92,6 +127,12 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #faf9f6;
+
   background-color: #faf9f6;
 }
 
@@ -99,8 +140,15 @@ body {
   border: black solid 3px;
   padding: 5px;
   margin-right: 8px;
+
 }
 
 .requestButton {
   margin-left: 8px;
 }
+
+
+.developCredits {
+  right: 0;
+}
+
