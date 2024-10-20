@@ -1,4 +1,5 @@
 .youtube {
+  border: 4px solid white;
   float: right;
   position:absolute;
   top: 8em;
