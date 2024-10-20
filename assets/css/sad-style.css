@@ -1,3 +1,10 @@
+.youtube {
+  border: 4px white solid;
+  float: right;
+  position:absolute;
+  top: 10em;
+  right: 3em;
+}
 .playlist-flex-container {
     display: flex;
     flex-direction: row;
