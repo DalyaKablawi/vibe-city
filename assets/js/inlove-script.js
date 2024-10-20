@@ -7,7 +7,6 @@ const scribeMsg = document.getElementById("scribe-msg");
 const form = document.getElementById("add-vibe-scribe");
 const container = document.querySelector(".cards-container");
 
-
 // 1. Display: none the button, 2. pop up model with date, title, thoughts 3. when submit button is clicked, store in local storage as string and 4. render title, thoughts under same flex container 5. when submit is clicked, new button is rendered in a newly created div flex-item //
 
 function addVibeScribe() {
@@ -39,6 +38,8 @@ function renderCard() {
   cardTitle.style.fontFamily = "Lucinda";
   cardTitle.textContent = title;
   const cardMessage = document.createElement("p");
+  cardMessage.textContent = message;
+  card.style.backgrrund
 
   card.appendChild(cardTitle);
   card.appendChild(cardMessage);
@@ -63,7 +64,7 @@ function loadCardsFromLocalStorage() {
     const card = document.createElement("div");
     card.classList.add("cards-item", "card", "p-3", "m-3");
     card.style.border = "3px solid #FFF";
-    card.style.backgroundColor = "#06031B";
+    card.style.backgroundColor = "#969cfe";
     card.style.color = "#FFF";
 
     const cardTitle = document.createElement("h5");
@@ -100,7 +101,6 @@ function addNewButton() {
   buttonContainer.appendChild(newButton);
   container.appendChild(buttonContainer);
 }
-
 
 // The function below hides the modal form until a user clicks on it
 
