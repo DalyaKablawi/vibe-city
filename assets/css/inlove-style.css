@@ -1,94 +1,90 @@
-.youtube {
-  float: right;
-  position:absolute;
-  top: 10em;
-  right: 3em;
+
+body {
+  background-image: url(/assets/images/Crush-Background.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.playlist-flex-container {
-    display: flex;
-    flex-direction: row;
-    border: 3px white solid;
-    background-color: #c5278c;
-  }
 
-  .flex-container-3 {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .button-bg-color {
-    background-color: #0b88b6;
-    border: 3px #080f21;
-    color: white;
-  }
-  
-  .credits {
-    border: 3px white solid;
-    color: #ebbe34;
-    font-weight: bold;
-    background-color: #0f051c;
-    padding: 5px;
-  }
+.text-position {
+  text-align: center;
+  background-color: #969cfe;
+}
 
-  body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: start;
-    background-image: url(/assets/images/Crush-Background.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+h3 {
+  font-family: "Helvetica", "Lato", "sans-serif";
+  color: #febbf2;
+}
 
-  .playlist-container {
-    min-width: 500px;
-    border: 3px white solid;
-    background-color: #FEBBF2;
-  }
-  
-  .background-color {
-    background-color: #969CFE;
-  }
-  
-  .button-bg-color {
-    background-color: #969CFE;
-    border: 3px #080f21;
-    color: white;
-  }
-  
-  .button-bg-color:hover {
-    background-color: white;
-  }
-  
-  .credits-container {
-    border: 3px white solid;
-    color: white;
-    font-weight: bold;
-    background-color: #FEBBF2;
-    text-align: center;
-  }
-  
-  a:hover {
-    background-color: black;
-  }
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 200px;
+  height: 200px;
+  border: 5px white solid;
+  border-radius: 30%;
+}
 
-  .text-position {
-    text-align: center;
-    background-color: #969CFE;
-  }
-  
-  h3 {
-    font-family: "Helvetica", "Lato", "sans-serif";
-    color: #FEBBF2;
-  }
+.youtube {
+  border: 5px white solid;
+}
 
-  img {
-    max-width: 100%;
-    max-height: 100%;
-    width: 200px;
-    height: 200px;
-    border: 5px white solid;
-    border-radius: 30%;
-  }
+.btn-bg {
+  background-color: #969cfe;
+}
+.btn-bg:hover{
+  background-color: #cfa5f2;
+}
+
+.form-bg {
+  background-color: #969cfe;
+  border: 3px white solid;
+  border-radius: 15%;
+}
+
+.playlist-container {
+  min-width: 500px;
+  border: 3px white solid;
+  background-color: #febbf2;
+}
+
+.background-color {
+  background-color: #969cfe;
+}
+
+.button-bg-color {
+  background-color: #969cfe;
+  border: 3px #080f21;
+  color: white;
+}
+
+.button-bg-color:hover {
+  background-color: white;
+}
+
+.request {
+  background-color: #cfa5f2;
+  border: 5px #969cfe solid;
+  bottom: 0px;
+}
+
+.request-btn-bg {
+  background-color: #969cfe;
+}
+
+.request-btn-bg:hover {
+  background-color: #969cfe;
+}
+
+.credits-container {
+  border: 3px white solid;
+  color: #969cfe;
+  font-weight: bold;
+  background-color: #febbf2;
+  text-align: center;
+}
+
+a:hover {
+  background-color: black;
+}
