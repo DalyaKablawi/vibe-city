@@ -4,6 +4,12 @@
     border: 3px white solid;
     background-color: #c5278c;
   }
+  .youtube {
+    float: right;
+    position:absolute;
+    top: 8em;
+    right: 3em;
+  }
 
   .flex-container-3 {
     display: flex;
