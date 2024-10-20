@@ -61,7 +61,12 @@ img {
 
 .credits-container {
   border: 3px white solid;
-  color: #ebbe34;
+  color: white;
   font-weight: bold;
   background-color: #0f051c;
+  text-align: center;
+}
+
+a:hover {
+  background-color: black;
 }
