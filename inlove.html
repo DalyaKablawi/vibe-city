@@ -14,23 +14,23 @@
     <link rel="stylesheet" href="/assets/css/inlove-style.css" />
   </head>
   <body>
-
     <div class="d-flex">
       <div class="million">
-        <img
-          class="img-fluid"
-          src="assets/images/heart-emoji.jpg"
-          alt="cat"
-        />
+        <img class="img-fluid" src="assets/images/heart-emoji.jpg" alt="cat" />
       </div>
       <header class="align-self-center mx-auto w-100 text-position py-2">
         <div>
           <h1 class="text-light">In Love? &#128516;</h1>
-          <h3>"The greatest happiness in life is the conviction that we are loved."</h3>
+          <h3>
+            "The greatest happiness in life is the conviction that we are
+            loved."
+          </h3>
         </div>
       </header>
     </div>
-    <div class="playlist-container">
+    <div
+      class="d-flex flex-wrap justify-content-evenly align-items-center my-5"
+    >
       <div class="youtube">
         <a href="https://youtu.be/F0hthw1SM1s">
           <iframe
@@ -41,119 +41,161 @@
           >
           </iframe>
         </a>
-
       </div>
-      <div class="dp-3">
-        <section class="list-group p-3 text-light">
-          <ul class="list-unstyled" id="spotifyPlaylist">
-            <h2 class="p-2 text-light background-color list-group-item">
-              Music that sounds like love
-            </h2>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/playlist/37i9dQZF1DX7rOY2tZUw1k"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >Love that gets lost in time</a
-              >
-            </li>
+      <div class="cards-container d-flex flex-wrap mx-5">
+        <div class="cards-item">
+          <button
+            type="button"
+            onclick="addVibeScribe()"
+            id="add-card"
+            class="border-white btn btn-bg text-light"
+          >
+            ADD VIBE-SCRIBE
+          </button>
+          <form
+            class="form-bg list-group p-3 m-5"
+            id="add-vibe-scribe"
+            style="display: none"
+          >
+            <label class="mb-3 ml-3 text-center w-100">Vibe-Scribe</label>
+            <br />
+            <label class="px-2">Title</label>
+            <input
+              type="text"
+              id="vibe-scribe-title"
+              name="vibe-scribe-title"
+            />
+            <br />
+            <label for="message" class="my-2">Thoughts?</label>
+            <textarea
+              class="form-control"
+              id="scribe-msg"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+            <button
+              type="submit"
+              id="hideForm"
+              class="my-3 btn btn-dark text-light"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="playlist-container">
+        <div class="dp-3">
+          <section class="list-group p-3 text-light">
+            <ul class="list-unstyled" id="spotifyPlaylist">
+              <h2 class="p-2 text-light background-color list-group-item">
+                Music that sounds like love
+              </h2>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/playlist/4QuJ2DbcTe7R8lzqfNXz7v"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >Love Song Essentials</a
-              >
-            </li>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/playlist/37i9dQZF1DX7rOY2tZUw1k"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >Love that gets lost in time</a
+                >
+              </li>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/album/4MydHI1yCJ7z35vRUIYdC6"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >Top Love Songs from 2023</a
-              >
-            </li>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/playlist/4QuJ2DbcTe7R8lzqfNXz7v"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >Love Song Essentials</a
+                >
+              </li>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/album/6tStLlLzITDvMdlmT79rbn"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >Top 100 Love Songs</a
-              >
-            </li>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/album/4MydHI1yCJ7z35vRUIYdC6"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >Top Love Songs from 2023</a
+                >
+              </li>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/album/56gQW7eUYQyDChrbwh6EBN"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >Oldies but goodies</a
-              >
-            </li>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/album/6tStLlLzITDvMdlmT79rbn"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >Top 100 Love Songs</a
+                >
+              </li>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/playlist/37i9dQZF1DXbQDZkQM83q7"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >POV: You're in love</a
-              >
-            </li>
-          </ul>
-        </section>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/album/56gQW7eUYQyDChrbwh6EBN"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >Oldies but goodies</a
+                >
+              </li>
+
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/playlist/37i9dQZF1DXbQDZkQM83q7"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >POV: You're in love</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
       </div>
     </div>
-  </div>
-
-  <footer class="d-flex flex-row justify-content-between flex-md-column">
-    <button class="btn button-bg-color" onclick="showForm()">
-      <em>REQUEST-A-VIBE</em>
-    </button>
-    <form
-      class="position-absolute bottom-0 start-0 list-group p-3 mb-2 bg-info text-dark"
-      id="modalForm"
-      style="display: none"
-    >
-      <title>REQUEST A VIBE</title>
-      <br />
-      <label>First Name</label>
-      <input type="text" id="firstName" name="firstName" />
-      <br />
-      <label>Country</label>
-      <input type="text" id="country" name="country" />
-      <br />
-      <label>Age</label>
-      <input type="text" id="age" name="age" />
-      <br />
-      <label>Give a name to your vibe:</label>
-      <input type="text" id="VibeSuggestion" name="VibeSuggestion" />
-      <br />
-      <label
-        >Describe your vibe in as much detail as possible for the team at
-        VibeNation:</label
-      >
-      <input
-        type="text"
-        id="VibeSuggestionDetail"
-        name="VibeSuggestionDetail"
-      />
-      <br />
-      <button class="btn btn-success" type="submit" id="submit">
-        Submit... maybe we'll listen
+    <footer class="d-flex flex-row justify-content-between flex-md-column">
+      <button class="btn button-bg-color" onclick="showForm()">
+        <em>REQUEST-A-VIBE</em>
       </button>
-    </form>
-    <div class="credits-container">
-      <p>
-        Developed by VibeNation Studios: Maxwell Hurst, Dalya Kablawi, Daniel
-        Villavicencio, Charisse Katelyn, Javier Lopez
-      </p>
-    </div>
-  </footer>
-  
+      <form
+        class="position-absolute bottom-0 start-0 list-group p-3 mb-2 bg-info text-dark"
+        id="modalForm"
+        style="display: none"
+      >
+        <title>REQUEST A VIBE</title>
+        <br />
+        <label>First Name</label>
+        <input type="text" id="firstName" name="firstName" />
+        <br />
+        <label>Country</label>
+        <input type="text" id="country" name="country" />
+        <br />
+        <label>Age</label>
+        <input type="text" id="age" name="age" />
+        <br />
+        <label>Give a name to your vibe:</label>
+        <input type="text" id="VibeSuggestion" name="VibeSuggestion" />
+        <br />
+        <label
+          >Describe your vibe in as much detail as possible for the team at
+          VibeNation:</label
+        >
+        <input
+          type="text"
+          id="VibeSuggestionDetail"
+          name="VibeSuggestionDetail"
+        />
+        <br />
+        <button class="btn btn-success" type="submit" id="submit">
+          Submit... maybe we'll listen
+        </button>
+      </form>
+      <div class="credits-container">
+        <p>
+          Developed by VibeNation Studios: Maxwell Hurst, Dalya Kablawi, Daniel
+          Villavicencio, Charisse Katelyn, Javier Lopez
+        </p>
+      </div>
+    </footer>
+
     <script src="assets/js/inlove-script.js"></script>
   </body>
 </html>
