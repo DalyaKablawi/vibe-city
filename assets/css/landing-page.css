@@ -125,15 +125,8 @@ body {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
-
-  display: flex;
-  justify-content: space-between;
   padding: 10px;
-  background-color: #faf9f6;
-
   background-color: #faf9f6;
 }
 
@@ -144,9 +137,5 @@ body {
 }
 
 .requestButton {
-  margin-left: 8px;
-}
-
-.developCredits {
-  right: 0;
+  left: 8px;
 }
