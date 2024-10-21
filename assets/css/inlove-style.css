@@ -30,6 +30,7 @@ img {
   border: 5px white solid;
 }
 
+
 .btn-bg {
   background-color: #969cfe;
 }
@@ -85,6 +86,6 @@ img {
   text-align: center;
 }
 
-a:hover {
+li a:hover {
   background-color: black;
 }
