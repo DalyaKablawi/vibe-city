@@ -28,10 +28,9 @@ h1 {
 h3 {
   font-family: myFont;
   font-size: 20px;
-
+  background-color:#3E0179;
   text-align: center;
-  margin: 1rem auto;
-  animation: neon 5s ease infinite;
+  animation: neon 1s ease infinite;
   text-align: center;
 }
 @keyframes neon {
@@ -48,6 +47,11 @@ h3 {
   }
 
 
+}
+
+.custom-color {
+color: #E2D743;
+background-color: #3E0179;
 }
 
 body {
