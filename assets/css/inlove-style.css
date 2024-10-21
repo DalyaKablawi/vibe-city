@@ -1,6 +1,5 @@
-
 body {
-  background-image: url(../assets/images/Crush-Background.jpg);
+  background-image: url(/assets/images/Crush-Background.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,11 +29,10 @@ img {
   border: 5px white solid;
 }
 
-
 .btn-bg {
   background-color: #969cfe;
 }
-.btn-bg:hover{
+.btn-bg:hover {
   background-color: #cfa5f2;
 }
 
