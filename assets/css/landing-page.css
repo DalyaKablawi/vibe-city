@@ -141,6 +141,20 @@ body {
   left: 8px;
 }
 
+.request {
+  background-color: #D0DFF9;
+  border: 5px black solid;
+  bottom: 0px;
+}
+
+.request-btn-bg {
+  background-color: #FE4D2D;
+}
+
+.request-btn-bg:hover {
+  background-color: #C5278C;
+}
+
 .requestButton:hover {
   background-color: #D0DFF9;
 }
