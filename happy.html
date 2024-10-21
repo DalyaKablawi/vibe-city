@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="/assets/css/happy-style.css" />
   </head>
   <body>
-
     <div class="d-flex">
       <div class="million">
         <img
@@ -154,35 +153,41 @@
         <em>REQUEST-A-VIBE</em>
       </button>
       <form
-        class="list-group p-3 mb-2 bg-info text-dark"
+        class="position-absolute request list-group p-3 mb-2 text-white"
         id="modalForm"
         style="display: none"
       >
         <title>REQUEST A VIBE</title>
         <br />
         <label>First Name</label>
-        <input type="text" id="firstName" name="firstName" />
+        <input class="d-flex" type="text" id="firstName" name="firstName" />
         <br />
         <label>Country</label>
-        <input type="text" id="country" name="country" />
+        <input class="d-flex" type="text" id="country" name="country" />
         <br />
         <label>Age</label>
-        <input type="text" id="age" name="age" />
+        <input class="d-flex" type="text" id="age" name="age" />
         <br />
         <label>Give a name to your vibe:</label>
-        <input type="text" id="VibeSuggestion" name="VibeSuggestion" />
+        <input
+          class="d-flex"
+          type="text"
+          id="VibeSuggestion"
+          name="VibeSuggestion"
+        />
         <br />
         <label
           >Describe your vibe in as much detail as possible for the team at
           VibeNation:</label
         >
-        <input
-          type="text"
+        <textarea
+          class="d-flex"
           id="VibeSuggestionDetail"
           name="VibeSuggestionDetail"
-        />
+        >
+        </textarea>
         <br />
-        <button class="btn btn-success" type="submit" id="submit">
+        <button class="btn request-btn-bg my-2" type="submit" id="submit">
           Submit... maybe we'll listen
         </button>
       </form>
