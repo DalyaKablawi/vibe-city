@@ -112,7 +112,7 @@ body {
   background-image: url(/assets/images/random.jpg);
   background-size: 50%;
   font-size: 20px;
-  color: blue;
+  color: white;
 }
 
 .link-style {
@@ -127,15 +127,20 @@ body {
 .footer {
   width: 100%;
   padding: 10px;
-  background-color: #faf9f6;
+  background-color: #212529;
 }
 
 .developCredits {
   border: black solid 3px;
+  background-color: #D0DFF9;
   padding: 5px;
   margin-right: 8px;
 }
 
 .requestButton {
   left: 8px;
+}
+
+.requestButton:hover {
+  background-color: #D0DFF9;
 }
