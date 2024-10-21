@@ -112,3 +112,5 @@ function showForm() {
 modalForm.addEventListener("shown.bs.modal", () => {
   modalInput.focus();
 });
+
+loadCardsFromLocalStorage();

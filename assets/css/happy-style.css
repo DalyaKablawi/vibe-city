@@ -34,7 +34,7 @@ img {
 }
 
 .form-bg {
-  background-color: rgb(249, 197, 59);
+  background-color: #8A3A68;
   border: 3px white solid;
   border-radius: 15%;
 }
@@ -59,6 +59,20 @@ img {
   background-color: white;
 }
 
+.request {
+  background-color: #071547;
+  border: 5px #FE4D2D solid;
+  bottom: 0px;
+}
+
+.request-btn-bg {
+  background-color: #FE4D2D;
+}
+
+.request-btn-bg:hover {
+  background-color: #C5278C;
+}
+
 .credits-container {
   border: 3px white solid;
   color: white;
@@ -67,6 +81,6 @@ img {
   text-align: center;
 }
 
-a:hover {
+li a:hover {
   background-color: black;
 }
