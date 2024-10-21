@@ -1,8 +1,10 @@
+let modalForm = document.getElementById("modalForm");
+let modalInput = document.getElementById("submit");
 const pages = [
-    'happy-index.html',
-    'inlove-index.html',
-    'meh-index.html',
-    'sad-index.html'
+    'happy.html',
+    'inlove.html',
+    'meh.html',
+    'sad.html'
 ];
 
 console.log(pages)
