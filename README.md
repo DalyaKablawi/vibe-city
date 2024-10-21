@@ -1,12 +1,10 @@
 # vibe-city
 
-## Repository for Project 1 titled Vibe City
-
 ## WELCOME TO VIBE CITY!!! THE VIBE-STATE AREA WELCOMES YOU!!
 
 ### Project Title
 
-        Vibe City
+Vibe City
 
 ### Project Description
 
@@ -32,9 +30,8 @@ Each Vibe Wall was designed with the user experience in mind:
 
 **How-To-Use for User:**
 
-    1. User selects one of five vibe options from our landing page (middle button = randomized option).
-
-    2. Once on the Vibe Wall of their choice, user interacts with the various elements on the webpage (VibeScribes, VibeLists, YouTube LivePlay, Request-A-Vibe)
+1. User selects one of five vibe options from our landing page (middle button = randomized option).
+2. Once on the Vibe Wall of their choice, user interacts with the various elements on the webpage (VibeScribes, VibeLists, YouTube LivePlay, Request-A-Vibe)
 
 ### User Story
 
@@ -71,16 +68,21 @@ Quote of the day for each mood page.
 **Breakdown of tasks and roles:**
 
 Step 1: Created our Trello, figma, github repo, base code files
+
 Step 2: Everyone created a single feature on our happy wall
+
 Step 3: Once we perfected the happy wall, we replicated that process on the other walls
+
 Step 4: Team collab on landing Page
 
 **Challenges:**
 
 **1. Javascript issues with local storage.**
 It was a challenge trying to create functions to store our modal user inputs into local storage. Since we were are not currently doing anything with the user data, this is not as big of an issue at the moment but we faced significant challenges getting the footer modal to save to local storage.
+
 **2. CSS vs Bootstrap styling & positioning elements on the page**
 We faced immense issues relying solely on Bootstrap to position HTML elements on our page. We ended up using a blend of custom CSS and Bootsrap styling/positioning that allowed us to reach our final product. We had to move from a Bootsrap flexbox strategy to using custom CSS containers, custom CSS rules, and the "d-flex" Bootstrap class to contain elements to the length of their content.
+
 **3. Making web page responsive**
 Due to the high amount of HTML elements that we have existing on each Vibe Wall, it took us a bit of debugging to figure out our web page respoinsiveness.
 
