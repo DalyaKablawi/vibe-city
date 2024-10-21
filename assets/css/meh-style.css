@@ -1,95 +1,86 @@
-.youtube {
-  border: 4px solid white;
-  float: right;
-  position:absolute;
-  top: 8em;
-  right: 3em;
+body {
+  background-image: url(/assets/images/Meh-Background.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.playlist-flex-container {
-    display: flex;
-    flex-direction: row;
-    border: 3px white solid;
-    background-color: #c5278c;
-  }
 
-  .flex-container-3 {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .button-bg-color {
-    background-color: #0b88b6;
-    border: 3px #080f21;
-    color: white;
-  }
-  
-  .credits {
-    border: 3px white solid;
-    color: #ebbe34;
-    font-weight: bold;
-    background-color: #0f051c;
-    padding: 5px;
-  }
+.text-position {
+  text-align: center;
+  background-color: #090805;
+}
 
-  body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: start;
-    background-image: url(/assets/images/Meh-Background.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+h3 {
+  font-family: "Helvetica", "Lato", "sans-serif";
+  color: #8A6B87;
+}
 
-  .playlist-container {
-    min-width: 500px;
-    border: 3px white solid;
-    background-color: #651E4D;
-  }
-  
-  .background-color {
-    background-color: #765E7A;
-  }
-  
-  .button-bg-color {
-    background-color: #765E7A;
-    border: 3px #080f21;
-    color: white;
-  }
-  
-  .button-bg-color:hover {
-    background-color: white;
-  }
-  
-  .credits-container {
-    border: 3px white solid;
-    color: white;
-    font-weight: bold;
-    background-color: #765E7A;
-    text-align: center;
-  }
-  
-  a:hover {
-    background-color: black;
-  }
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 250px;
+  height: 200px;
+  border: 5px white solid;
+  border-radius: 30%;
+}
 
-  .text-position {
-    text-align: center;
-    background-color: #765E7A;
-  }
-  
-  h3 {
-    font-family: "Helvetica", "Lato", "sans-serif";
-    color: white;
-  }
+.youtube {
+  border: 5px solid white;
+}
 
-  img {
-    max-width: 100%;
-    max-height: 100%;
-    width: 200px;
-    height: 200px;
-    border: 5px white solid;
-    border-radius: 30%;
-  }
+.btn-bg {
+  background-color: #06031b;
+}
+
+.form-bg {
+  background-color: #8A3A68;
+  border: 3px white solid;
+  border-radius: 15%;
+}
+
+.playlist-container {
+  min-width: 500px;
+  border: 3px white solid;
+  background-color: #651e4d;
+}
+
+.background-color {
+  background-color: #021E46;
+}
+
+.button-bg-color {
+  background-color: #651E4D;
+  border: 3px #080f21;
+  color: white;
+}
+
+.button-bg-color:hover {
+  background-color: white;
+}
+
+.request {
+  background-color: #071547;
+  border: 5px #651E4D solid;
+  bottom: 0px;
+}
+
+.request-btn-bg {
+  background-color: #651E4D;
+}
+
+.request-btn-bg:hover {
+  background-color: #C5278C;
+}
+
+.credits-container {
+  border: 3px white solid;
+  color: white;
+  font-weight: bold;
+  background-color: #765e7a;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: black;
+}
