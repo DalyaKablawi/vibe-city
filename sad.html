@@ -14,146 +14,195 @@
     <link rel="stylesheet" href="/assets/css/sad-style.css" />
   </head>
   <body>
-
     <div class="d-flex">
       <div class="million">
         <img
           class="img-fluid"
           src="assets/images/sad-emoji.png"
-          alt="cat"
+          alt="sad face"
         />
       </div>
       <header class="align-self-center mx-auto w-100 text-position py-2">
         <div>
-          <h1 class="text-light">Going through it? &#128516;</h1>
-          <h3>"Feelings are something you have; not something you are."</h3>
+          <h1 class="text-light">going through it &#128542;</h1>
+          <h3><em>down in the dumps</em></h3>
         </div>
       </header>
     </div>
-    <div class="youtube">
+
+    <div
+      class="d-flex flex-wrap justify-content-evenly align-items-center my-5"
+    >
       <a href="https://youtu.be/F0hthw1SM1s">
         <iframe
           class="youtube my-sm-3"
-          width="500"
-          height="375"
+          width="420"
+          height="345"
           src="https://www.youtube.com/embed/DIW8MGx0zCU?autoplay=1&mute=1"
         >
         </iframe>
       </a>
+      <div class="cards-container d-flex flex-wrap mx-5">
+        <div class="cards-item">
+          <button
+            type="button"
+            onclick="addVibeScribe()"
+            id="add-card"
+            class="border-white btn btn-bg text-light"
+          >
+            ADD VIBE-SCRIBE
+          </button>
+          <form
+            class="form-bg list-group p-3 m-5"
+            id="add-vibe-scribe"
+            style="display: none"
+          >
+            <label class="text-light mb-3 ml-3 text-center w-100">Vibe-Scribe</label>
+            <br />
+            <label class=" text-light px-2">Title</label>
+            <input
+              type="text"
+              id="vibe-scribe-title"
+              name="vibe-scribe-title"
+            />
+            <br />
+            <label for="message" class="text-light my-2">Thoughts?</label>
+            <textarea
+              class="form-control"
+              id="scribe-msg"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+            <button
+              type="submit"
+              id="hideForm"
+              class="my-3 btn btn-dark text-light"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
 
-    </div>
-    <div class="playlist-container">
-      <div class="dp-3">
-        <section class="list-group p-3 text-light">
-          <ul class="list-unstyled" id="spotifyPlaylist">
-            <h2 class="p-2 text-light background-color list-group-item">
-              Music that sounds like you need it the most
-            </h2>
+      <div class="playlist-container">
+        <div class="dp-3">
+          <section class="list-group p-3 text-light">
+            <ul class="list-unstyled" id="spotifyPlaylist">
+              <h2 class="p-2 text-light background-color list-group-item">
+                Music that sounds like you need it the most
+              </h2>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/playlist/37i9dQZF1DX7qK8ma5wgG1"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >If you had a bad day</a
-              >
-            </li>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/playlist/37i9dQZF1DX7qK8ma5wgG1"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >If you had a bad day</a
+                >
+              </li>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/album/3iMjk15PNBjloo3WLFbQdW"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >World's 100 Greatest Sad Songs</a
-              >
-            </li>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/album/3iMjk15PNBjloo3WLFbQdW"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >World's 100 Greatest Sad Songs</a
+                >
+              </li>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/playlist/3c0Nv5CY6TIaRszlTZbUFk"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >Top Sad Song Hits of 2024</a
-              >
-            </li>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/playlist/3c0Nv5CY6TIaRszlTZbUFk"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >Top Sad Song Hits of 2024</a
+                >
+              </li>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/playlist/29ZVfmPIkm2hzPnVWZRbzd"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >Got you in your feelings?</a
-              >
-            </li>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/playlist/29ZVfmPIkm2hzPnVWZRbzd"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >Got you in your feelings?</a
+                >
+              </li>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/playlist/2LDCn6vNamfbM4Rc6V3Yh3"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >If you want to cry, click here.</a
-              >
-            </li>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/playlist/2LDCn6vNamfbM4Rc6V3Yh3"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >If you want to cry, click here.</a
+                >
+              </li>
 
-            <li class="d-flex">
-              <a
-                href="https://open.spotify.com/playlist/37i9dQZF1DXbrUpGvoi3TS"
-                target="_blank"
-                class="p-2 text-light background-color m-3 list-group-item lead"
-                >Broken Heart but no Broken Headphones</a
-              >
-            </li>
-          </ul>
-        </section>
+              <li class="d-flex">
+                <a
+                  href="https://open.spotify.com/playlist/37i9dQZF1DXbrUpGvoi3TS"
+                  target="_blank"
+                  class="p-2 text-light background-color m-3 list-group-item lead"
+                  >Broken Heart but no Broken Headphones</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
       </div>
     </div>
-  </div>
 
-  <footer class="d-flex flex-row justify-content-between flex-md-column">
-    <button class="btn button-bg-color" onclick="showForm()">
-      <em>REQUEST-A-VIBE</em>
-    </button>
-    <form
-      class="position-absolute bottom-0 start-0 list-group p-3 mb-2 bg-info text-dark"
-      id="modalForm"
-      style="display: none"
-    >
-      <title>REQUEST A VIBE</title>
-      <br />
-      <label>First Name</label>
-      <input type="text" id="firstName" name="firstName" />
-      <br />
-      <label>Country</label>
-      <input type="text" id="country" name="country" />
-      <br />
-      <label>Age</label>
-      <input type="text" id="age" name="age" />
-      <br />
-      <label>Give a name to your vibe:</label>
-      <input type="text" id="VibeSuggestion" name="VibeSuggestion" />
-      <br />
-      <label
-        >Describe your vibe in as much detail as possible for the team at
-        VibeNation:</label
-      >
-      <input
-        type="text"
-        id="VibeSuggestionDetail"
-        name="VibeSuggestionDetail"
-      />
-      <br />
-      <button class="btn btn-success" type="submit" id="submit">
-        Submit... maybe we'll listen
+    <footer class="d-flex flex-row justify-content-between position-relative">
+      <button class="btn button-bg-color" onclick="showForm()">
+        <em>REQUEST-A-VIBE</em>
       </button>
-    </form>
-    <div class="credits-container">
-      <p>
-        Developed by VibeNation Studios: Maxwell Hurst, Dalya Kablawi, Daniel
-        Villavicencio, Charisse Katelyn, Javier Lopez
-      </p>
-    </div>
-  </footer>
-  
+      <form
+        class="position-absolute request list-group p-3 mb-2 text-white"
+        id="modalForm"
+        style="display: none"
+      >
+        <title>REQUEST A VIBE</title>
+        <br />
+        <label>First Name:</label>
+        <input class="d-flex" type="text" id="firstName" name="firstName" />
+        <br />
+        <label>Country:</label>
+        <input class="d-flex" type="text" id="country" name="country" />
+        <br />
+        <label>Age:</label>
+        <input class="d-flex" type="text" id="age" name="age" />
+        <br />
+        <label>Give a name to your vibe:</label>
+        <input
+          class="d-flex"
+          type="text"
+          id="VibeSuggestion"
+          name="VibeSuggestion"
+        />
+        <br />
+        <label
+          >Describe your vibe in as much detail as possible for the team at
+          VibeNation:</label
+        >
+        <textarea
+          class="d-flex"
+          id="VibeSuggestionDetail"
+          name="VibeSuggestionDetail"
+        >
+        </textarea>
+        <br />
+        <button class="btn request-btn-bg my-2" type="submit" id="submit">
+          Submit... maybe we'll listen
+        </button>
+      </form>
+      <div class="credits-container px-2">
+        <p>
+          Developed by VibeNation Studios: Maxwell Hurst, Dalya Kablawi, Daniel
+          Villavicencio, Charisse Katelyn, Javier Lopez
+        </p>
+      </div>
+    </footer>
+
     <script src="assets/js/sad-script.js"></script>
   </body>
 </html>
