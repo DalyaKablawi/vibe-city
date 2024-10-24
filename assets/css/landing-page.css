@@ -1,5 +1,5 @@
 body {
-  background-image: url(./images/landing-page-background.gif);
+  background-image: url(../images/landing-page-background.gif);
   width: 100%;
   height: 100%;
   -webkit-background-size: cover;
@@ -72,7 +72,7 @@ h3 {
   width: 400px;
   height: 150px;
   font-size: 20px;
-  background-image: url(/assets/images/million-bucks.jpg);
+  background-image: url(../images/million-bucks.jpg);
   background-size: cover;
 }
 
@@ -81,7 +81,7 @@ h3 {
   width: 400px;
   height: 150px;
   font-size: 20px;
-  background-image: url(/assets/images/sadButton-img.jpg);
+  background-image: url(../images/sadButton-img.jpg);
   background-size: cover;
   background-position: 25%;
   color: white;
@@ -93,7 +93,7 @@ h3 {
   width: 400px;
   height: 150px;
   font-size: 20px;
-  background-image: url(/assets/images/in-love.jpg);
+  background-image: url(../images/in-love.jpg);
   background-size: cover;
 }
 
@@ -102,7 +102,7 @@ h3 {
   width: 400px;
   height: 150px;
   font-size: 20px;
-  background-image: url(/assets/images/meh-img.jpg);
+  background-image: url(../images/meh-img.jpg);
   background-size: cover;
   background-position: 25%;
 }
@@ -111,7 +111,7 @@ h3 {
   border-radius: 100px;
   width: 200px;
   height: 100px;
-  background-image: url(/assets/images/random.jpg);
+  background-image: url(../images/random.jpg);
   background-size: 50%;
   font-size: 20px;
   color: white;
